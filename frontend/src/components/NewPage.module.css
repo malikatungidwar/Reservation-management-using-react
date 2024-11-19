@@ -1,0 +1,97 @@
+/* Container for the page */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Event day toggle styling */
+  .event-toggle {
+    margin-bottom: 20px;
+  }
+  
+  .event-toggle label {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Styling for the stock management table */
+  .stock-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .stock-table th, .stock-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .stock-table th {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .stock-table td {
+    background-color: #f2f2f2;
+  }
+  
+  /* Input and button styles for quantity update */
+  .quantity-input {
+    width: 80px;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .action-btn {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .action-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Styling for the bar graph container */
+  .graph-container {
+    margin-top: 20px;
+  }
+  
+  .graph-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .graph-item span {
+    width: 100px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .bar {
+    height: 20px;
+    background-color: #3498db;
+    position: relative;
+    border-radius: 5px;
+  }
+  
+  .bar-text {
+    position: absolute;
+    left: 5px;
+    color: white;
+    font-weight: bold;
+  }
+  

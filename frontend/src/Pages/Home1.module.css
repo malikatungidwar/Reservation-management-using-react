@@ -1,0 +1,99 @@
+/* Container for the entire app */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+.form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+/* Form input fields */
+.form label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  
+}
+label{
+  margin-left: 20px;
+}
+input{
+  
+    /* padding-left: 10px; */
+    margin-left: 10px;
+}
+
+/* Spacing after input fields and checkboxes */
+.form input[type="number"],
+.form select,
+.form input[type="checkbox"] {
+  margin-bottom: 15px; /* Add spacing after each form field */
+  margin-left: 20px;
+}
+
+.form input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+/* Buttons with spacing */
+button {
+  padding: 4px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #1c0863;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-bottom: 20px; /* Add spacing after each button */
+}
+
+button:hover {
+  background-color: #2e0fa0;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background-color: #1c0863;
+  color: white;
+}
+
+/* Graph container */
+.graph-container {
+  margin-top: 30px;
+}
+
+.graph-container canvas {
+  max-height: 200px;
+}
